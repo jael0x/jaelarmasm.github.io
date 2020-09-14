@@ -1,0 +1,160 @@
+/* #FFAF2A - Amarillo */
+/* #006462 - Turquesa */
+/* #541D37 - Morado */
+/* #B01E30 - Rojo */
+/* #FDFAEE - Blanco */
+/* #E11355 - Fuxia*/
+/* #002f55 - Blue*/
+/* #1A4468 - Soft Blue*/
+/* #00b2c8 - Turquiose*/
+
+.bg-gradient-cool{
+    background-image: linear-gradient(to left, #541d37, #4b2143, #3c264d, #272b53, #002f55);
+}
+
+.bg-gradient-cool-reverse{
+    background-image: linear-gradient(to right, #541d37, #4a2245, #3a294e, #252f53, #043353);
+}
+
+.bg-gradient-default-reverse{
+    background-image: linear-gradient(to right, #172b4d, #15274e, #14224e, #161d4e, #1a174d);
+}
+
+.bg-gradient-skill{
+    background-image: linear-gradient(to left, #00a6e0, #00a3c6, #009b96, #009058, #178000);
+}
+
+.bg-gradient-experience{
+    background-color: rgba(11, 26, 63, 0.2);
+}
+
+.profile-image{
+    background-color: #ffffff;
+    border-radius: 50%;
+    max-width: 215px !important;
+}
+
+.bg-strong-blue{
+    background-color: #002f55 !important;
+}
+
+.bg-soft-blue{
+    background-color: #1A4468 !important;
+}
+
+.fill-strong-blue{
+    fill: #002f55
+}
+
+.fill-soft-blue{
+    fill: #1A4468
+}
+
+.text-strong-blue{
+    color: #002f55;
+}
+
+.text-soft-blue{
+    color: #1A4468
+}
+
+.text-strong-red{
+    color: #541D37;
+}
+
+.text-grey{
+    color: #3f3d3d;
+}
+
+.bt-call-to-action{
+    background-color: #1A4468;
+    color: #ffffff;
+}
+
+.bt-call-to-action:hover{
+    background-color: #002f55;
+    color: #ffffff;
+}
+
+.col-with-icon{
+    align-self: center;
+    padding-left: 5px;
+    max-width: 55px;
+}
+
+.progress-height{
+    height: 55px;
+}
+
+@font-face{
+    font-family: corbel;
+    src: url(../fonts/corbel/corbelb.ttf);
+}
+
+.text-corbel{
+    font-family: corbel;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: corbel;
+}
+
+.experiencie-carousel{
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .experiencie-carousel{
+        width: 80%; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+}
+
+.hover-black:hover{
+    background-color: #000000;
+    opacity: 0.5;
+}
+
+.timeline-content{
+    margin-left: 50px !important;
+}
+
+.card-header{
+    border-bottom: 0 !important;
+}
+
+.nav-link{
+    cursor: pointer;
+}
+
+.badge-teal{
+    color: #ffffff;
+    background-color: #00b2c8;
+}
+
+.text-turq{
+    color: #00b2c8;
+}
+
+.card-skills{
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body.g-sidenav-hidden{
+    padding-right: 0 !important;
+}
+
+.mail-to{
+    color: #ffffff !important;
+}
+
+.mail-to:hover{
+    color: #f0f0f0 !important;
+}
+
+.text-nowrap{
+    white-space: nowrap;
+}
